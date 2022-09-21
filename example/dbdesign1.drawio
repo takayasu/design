@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T21:35:15.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qoVtH3n7wmZFwSF5gY9y" version="20.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-21T23:56:39.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="n5A4Wnmy4aVBP2_z8ArO" version="20.3.3" type="github" pages="2">
   <diagram id="TURMMHRjFKOzRaox89WU" name="Example">
     <mxGraphModel dx="1177" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
           <mxGeometry x="350" y="950" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ChnI9r_FBCkTOYSOsp-g-60" value="注文" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="540" y="510" width="160" height="206" as="geometry" />
+          <mxGeometry x="540" y="510" width="160" height="236" as="geometry" />
         </mxCell>
         <mxCell id="ChnI9r_FBCkTOYSOsp-g-61" value="注文番号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -162,17 +162,47 @@
         <mxCell id="ChnI9r_FBCkTOYSOsp-g-62" value="注文日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChnI9r_FBCkTOYSOsp-g-63" value="注文ステータス1" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
+        <mxCell id="ChnI9r_FBCkTOYSOsp-g-63" value="注文受付更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChnI9r_FBCkTOYSOsp-g-64" value="ステータス1更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
+        <mxCell id="ChnI9r_FBCkTOYSOsp-g-64" value="入金確認更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
           <mxGeometry y="116" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChnI9r_FBCkTOYSOsp-g-67" value="注文ステータス2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
+        <mxCell id="ChnI9r_FBCkTOYSOsp-g-67" value="在庫割当済日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
           <mxGeometry y="146" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChnI9r_FBCkTOYSOsp-g-68" value="ステータス2更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
+        <mxCell id="ChnI9r_FBCkTOYSOsp-g-68" value="配送手配済更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
           <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-1" value="発送済更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ChnI9r_FBCkTOYSOsp-g-60">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-2" value="注文" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="540" y="770" width="160" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-3" value="注文番号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=4" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-4" value="注文日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-5" value="注文受付更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-6" value="入金確認更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-7" value="在庫割当済日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-8" value="配送手配済更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-9" value="発送済更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qfsya1We_KYs10F2HDsh-10" value="最新ステータス" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Qfsya1We_KYs10F2HDsh-2">
+          <mxGeometry y="236" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
